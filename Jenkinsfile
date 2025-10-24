@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'main', url: 'https://github.com/<yourusername>/cicd-demo.git'
+        git branch: 'main', url: 'https://github.com/Praveenm-05/CI-CD-repo.git'
       }
     }
     stage('Build Docker Image') {
